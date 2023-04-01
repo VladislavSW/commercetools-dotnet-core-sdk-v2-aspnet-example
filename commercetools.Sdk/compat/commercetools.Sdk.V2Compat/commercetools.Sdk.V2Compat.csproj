@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Version>0.1.0</Version>
+        <RepositoryUrl>https://github.com/commercetools/commercetools-dotnet-core-sdk-v2</RepositoryUrl>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="commercetools.Sdk.All" Version="1.1.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\commercetools.Base.Abstractions\commercetools.Base.Abstractions.csproj" />
+        <ProjectReference Include="..\..\commercetools.Base.Client\commercetools.Base.Client.csproj" />
+    </ItemGroup>
+
+</Project>
